@@ -1,5 +1,12 @@
 # PixivCrawler
-Crawling pictures from daily ranking list of pixiv.(cookies.txt required)
+Crawling pictures from daily ranking list of pixiv.
+
+1.根据日期构造排行榜URL
+2.获取当日排行榜中的所有图片ID
+3.根据图片ID构造图片页URL
+4.保存原图
+
+P.S. cookies.txt required.
 
 Login first, then get the cookies and copy them to cookies.txt.
 
